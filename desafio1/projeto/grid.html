@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grade</title>
+
+
+</head>
+<style>
+    .celula {
+        background-color: aqua;
+    }
+
+    .galeria {
+        display: grid;
+        gap: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+        .galeria {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .celula {
+            background-color: red;
+        }
+    }
+     @media (min-width: 1200px) {
+        .galeria {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .celula {
+            background-color: blue;
+        }
+
+          }
+     @media (min-width: 800px) {
+        .galeria {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .celula {
+            background-color: green;
+        }
+
+
+        @media (min-width: 1920px) {
+        .galeria {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .celula {
+            background-color: yellow;
+        }
+    }
+</style>
+
+<body>
+    <section class="galeria">
+        <section class="celula">A</section>
+
+        <section class="celula">B</section>
+
+        <section class="celula">C</section>
+
+        <section class="celula">D</section>
+    </section>
+
+</body>
+
+</html>

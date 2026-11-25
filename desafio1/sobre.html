@@ -5,13 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Site</title>
+    <style>
+        body {
+            background-image: url('brasil2.jpg');
+            background-size: cover;
+
+            background-repeat: repeat;
+        }
+
+
+        header {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(5, 224, 82);
+
+
+        }
+
+        h2 {
+            color: rgb(226, 250, 50);
+        }
+
+        section {
+
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #9fd68e;
+            border-radius: 5px;
+            background-color: #f2f4ffc6;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 50px;
+            color: #0f0202;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+
+        footer strong {
+            color: #db2323;
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+
+
+        button {
+            background-color: #cdb5e1;
+            padding: 8px 16px;
+
+        }
+
+
+
+        .btn-principal {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        #btn-submit-final {
+            background: #16a34a;
+        }
+
+    
+    </style>
 </head>
 
 <body>
-
-    <body style="background-color: rgb(90, 183, 233);">
-        <!-- O fundo de toda a página será azul claro -->
-    </body>
 
     <header>
         <h1>Meu Primeiro Site</h1>
@@ -22,8 +97,6 @@
     <section>
         <h2>Apresentação</h2>
 
-        <img src="t800.jpg"
-            alt="Imagem de um robô com aparência humana, com olhos vermelhos e corpo metálico, representando o personagem T-800 do filme Exterminador do Futuro.">
 
 
         <p><strong>Nome:</strong> Guilherme Alves</p>
@@ -79,36 +152,24 @@
         </ol>
     </section>
 
-    <section>
-        <h2>Playlist Video</h2>
-
-        <ol>
-            <li>
-                <video width="400" height="300" controls poster="capa.jpg">
-                    <source src="rage.mp4" type="video/mp4">
-                    seu navegador não suporta video
-                </video>
-            </li>
-
-            <li>
-                <video width="400" height="300" controls poster="alice.jpg">
-                    <source src="alice.mp4" type="video/mp4">
-                    seu navegador não suporta video
-                </video>
-            </li>
-        </ol>
-    </section>
-
-<section>
-        <h2>Playlist Youtube</h2>
-
-        
-    <iframe width="825" height="614" src="https://www.youtube.com/embed/TAqZb52sgpU?list=RDTAqZb52sgpU"
-        title="Alice In Chains - Man in the Box (Official Video)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </section>
+
+
+    <button>
+        Elemento
+    </button>
+
+    <button class="btn-principal">
+        com classe
+    </button>
+
+    <button id="btn-submit-final">
+        com id
+    </button>
+
+
+
 
 
     <footer>
